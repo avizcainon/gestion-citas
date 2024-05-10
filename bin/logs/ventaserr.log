@@ -1,0 +1,124 @@
+2021-08-06 10:45:06,538 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2021-08-16 07:29:12,225 ve.com.avss.facturas.interfaz.DialogoFacturaVenta$1.actionPerformed(DialogoFacturaVenta.java:673) - error String index out of range: 16
+2021-08-16 07:30:23,375 ve.com.avss.facturas.interfaz.DialogoFacturaVenta$1.actionPerformed(DialogoFacturaVenta.java:673) - error String index out of range: 16
+2021-09-03 19:33:23,246 org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.loadDiskCache(FileSystemFontProvider.java:582) - New fonts found, font cache will be re-built
+2021-09-03 19:33:23,247 org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.<init>(FileSystemFontProvider.java:335) - Building on-disk font cache, this may take a while
+2021-09-03 19:33:27,024 org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.<init>(FileSystemFontProvider.java:338) - Finished building on-disk font cache, found 368 fonts
+2021-09-04 02:25:11,799 ve.com.avss.facturas.BD.ejecutores.QueryFactura.obtenerDatosFactura(QueryFactura.java:215) - error ResultSet closed
+2021-09-04 02:25:11,800 ve.com.avss.facturas.BD.conectores.ConectorFactura.obtenerDatosFactura(ConectorFactura.java:29) - error java.lang.Exception: Falló conexion con la base de datos 
+2021-10-13 19:33:28,511 org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.loadDiskCache(FileSystemFontProvider.java:582) - New fonts found, font cache will be re-built
+2021-10-13 19:33:28,525 org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.<init>(FileSystemFontProvider.java:335) - Building on-disk font cache, this may take a while
+2021-10-13 19:33:31,794 org.apache.pdfbox.pdmodel.font.FileSystemFontProvider.<init>(FileSystemFontProvider.java:338) - Finished building on-disk font cache, found 372 fonts
+2022-01-19 18:18:27,901 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2022-01-19 19:35:14,736 ve.com.avss.facturas.BD.ejecutores.QueryFactura.registrarProductosFacturaCompra(QueryFactura.java:133) - error org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "00": syntax error)
+2022-01-19 19:35:14,737 ve.com.avss.facturas.BD.conectores.ConectorFactura.registrarFacturaCompra(ConectorFactura.java:146) - error Falló conexion con la base de datos 
+2022-01-19 19:49:54,899 ve.com.avss.facturas.BD.ejecutores.QueryFactura.registrarProductosFacturaCompra(QueryFactura.java:133) - error org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "00": syntax error)
+2022-01-19 19:50:46,542 ve.com.avss.facturas.BD.conectores.ConectorFactura.registrarFacturaCompra(ConectorFactura.java:146) - error Falló conexion con la base de datos 
+2022-01-19 19:55:12,453 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2022-01-23 10:13:29,325 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2022-01-23 10:42:07,246 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2022-01-23 12:02:39,697 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2022-01-23 12:02:39,701 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2022-01-26 10:01:03,706 ve.com.avss.empresa.BD.ejecutores.QueryEmpresa.obtenerDatosEmpresa(QueryEmpresa.java:131) - error no such column: 'validar_cant_producto_empresa'
+2022-01-26 10:01:03,718 ve.com.avss.empresa.BD.conectores.ConectorEmpresa.obtenerDatosEmpresa(ConectorEmpresa.java:62) - Falló conexion con la base de datos no such column: 'validar_cant_producto_empresa'
+2022-01-26 10:01:03,719 ve.com.avss.Ventas.createAndShowGUI(Ventas.java:76) - error
+java.lang.Exception: Falló conexion con la base de datos no such column: 'validar_cant_producto_empresa'
+	at ve.com.avss.ventas.interfaz.Autenticacion.<init>(Autenticacion.java:56)
+	at ve.com.avss.Ventas.createAndShowGUI(Ventas.java:72)
+	at ve.com.avss.Ventas.access$0(Ventas.java:58)
+	at ve.com.avss.Ventas$1.run(Ventas.java:128)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2022-01-26 10:01:48,197 ve.com.avss.empresa.BD.ejecutores.QueryEmpresa.obtenerDatosEmpresa(QueryEmpresa.java:131) - error no such column: 'validar_cant_producto_empresa'
+2022-01-26 10:01:48,198 ve.com.avss.empresa.BD.conectores.ConectorEmpresa.obtenerDatosEmpresa(ConectorEmpresa.java:62) - Falló conexion con la base de datos no such column: 'validar_cant_producto_empresa'
+2022-01-26 10:01:48,199 ve.com.avss.Ventas.createAndShowGUI(Ventas.java:76) - error
+java.lang.Exception: Falló conexion con la base de datos no such column: 'validar_cant_producto_empresa'
+	at ve.com.avss.ventas.interfaz.Autenticacion.<init>(Autenticacion.java:56)
+	at ve.com.avss.Ventas.createAndShowGUI(Ventas.java:72)
+	at ve.com.avss.Ventas.access$0(Ventas.java:58)
+	at ve.com.avss.Ventas$1.run(Ventas.java:128)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2022-01-26 10:03:14,818 ve.com.avss.empresa.BD.ejecutores.QueryEmpresa.obtenerDatosEmpresa(QueryEmpresa.java:131) - error no such column: 'validar_cant_producto_empresa'
+2022-01-26 10:03:14,831 ve.com.avss.empresa.BD.conectores.ConectorEmpresa.obtenerDatosEmpresa(ConectorEmpresa.java:62) - Falló conexion con la base de datos no such column: 'validar_cant_producto_empresa'
+2022-01-26 10:03:14,832 ve.com.avss.Ventas.createAndShowGUI(Ventas.java:76) - error
+java.lang.Exception: Falló conexion con la base de datos no such column: 'validar_cant_producto_empresa'
+	at ve.com.avss.ventas.interfaz.Autenticacion.<init>(Autenticacion.java:56)
+	at ve.com.avss.Ventas.createAndShowGUI(Ventas.java:72)
+	at ve.com.avss.Ventas.access$0(Ventas.java:58)
+	at ve.com.avss.Ventas$1.run(Ventas.java:128)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2022-01-26 10:49:20,631 ve.com.avss.Ventas.createAndShowGUI(Ventas.java:76) - error
+java.lang.Exception: For input string: "16,00"
+	at ve.com.avss.ventas.interfaz.Autenticacion.<init>(Autenticacion.java:56)
+	at ve.com.avss.Ventas.createAndShowGUI(Ventas.java:72)
+	at ve.com.avss.Ventas.access$0(Ventas.java:58)
+	at ve.com.avss.Ventas$1.run(Ventas.java:128)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2022-01-27 09:44:29,412 ve.com.avss.facturas.BD.ejecutores.QueryFactura.obtenerDatosFacturaCotizacion(QueryFactura.java:265) - error java.sql.SQLException: ResultSet closed
+2022-01-27 09:44:29,425 ve.com.avss.facturas.BD.conectores.ConectorFactura.obtenerDatosFacturaCotizacion(ConectorFactura.java:68) - error java.lang.Exception: Falló conexion con la base de datos. ResultSet closed
+2022-01-27 09:45:02,361 ve.com.avss.facturas.BD.ejecutores.QueryFactura.obtenerDatosFacturaCotizacion(QueryFactura.java:265) - error java.sql.SQLException: ResultSet closed
+2022-01-27 09:45:02,361 ve.com.avss.facturas.BD.conectores.ConectorFactura.obtenerDatosFacturaCotizacion(ConectorFactura.java:68) - error java.lang.Exception: Falló conexion con la base de datos. ResultSet closed
+2022-01-27 09:45:46,452 ve.com.avss.facturas.BD.ejecutores.QueryFactura.obtenerDatosFacturaCotizacion(QueryFactura.java:265) - error java.sql.SQLException: ResultSet closed
+2022-01-27 09:46:19,290 ve.com.avss.facturas.BD.conectores.ConectorFactura.obtenerDatosFacturaCotizacion(ConectorFactura.java:68) - error java.lang.Exception: Factura no encontrada
+2022-01-27 09:48:38,949 ve.com.avss.facturas.BD.ejecutores.QueryFactura.obtenerDatosFacturaCotizacion(QueryFactura.java:265) - error java.sql.SQLException: ResultSet closed
+2022-01-27 09:48:38,950 ve.com.avss.facturas.BD.conectores.ConectorFactura.obtenerDatosFacturaCotizacion(ConectorFactura.java:68) - error java.lang.Exception: Falló conexion con la base de datos. ResultSet closed
+2022-01-27 12:01:08,704 ve.com.avss.ventas.interfaz.Instalacion.escribirArchivoConf(Instalacion.java:234) - error .\configuracion.properties (El sistema no puede encontrar el archivo especificado)
+2022-01-27 12:02:30,255 ve.com.avss.ventas.interfaz.Instalacion.escribirArchivoConf(Instalacion.java:234) - error .\configuracion.properties (El sistema no puede encontrar el archivo especificado)
+2022-01-27 12:04:38,182 ve.com.avss.ventas.interfaz.Instalacion.escribirArchivoConf(Instalacion.java:234) - error .\configuracion.properties (El sistema no puede encontrar el archivo especificado)
+2022-01-27 12:05:00,861 ve.com.avss.ventas.interfaz.Instalacion.escribirArchivoConf(Instalacion.java:234) - error .\configuracion.properties (El sistema no puede encontrar el archivo especificado)
+2022-01-27 12:06:06,621 ve.com.avss.ventas.interfaz.Instalacion.escribirArchivoConf(Instalacion.java:234) - error .\configuracion.properties (El sistema no puede encontrar el archivo especificado)
+2022-01-27 12:07:21,940 ve.com.avss.ventas.interfaz.Instalacion.escribirArchivoConf(Instalacion.java:236) - error .\configuracion.properties (El sistema no puede encontrar el archivo especificado)
+2022-01-27 12:08:08,116 ve.com.avss.ventas.interfaz.Instalacion.escribirArchivoConf(Instalacion.java:236) - error .\configuracion.properties (El sistema no puede encontrar el archivo especificado)
+2022-02-01 16:07:26,203 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
+2022-02-01 16:07:26,205 org.apache.pdfbox.cos.COSDocument.finalize(COSDocument.java:525) - Warning: You did not close a PDF Document
